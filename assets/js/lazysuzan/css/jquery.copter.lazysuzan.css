@@ -1,0 +1,64 @@
+.spin-me {
+    position: relative;
+    display: block;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.spin-me .pos2 {
+    width: 60%;
+    margin-left: 20%;
+}
+
+.pos1 .slide,.pos2 .slide,.pos3 .slide {
+    width: 100%;
+
+    -moz-box-shadow: 2px 2px 8px rgba(0,0,0,.25);
+    -webkit-box-shadow: 2px 2px 8px rgba(0,0,0,.25);
+    box-shadow: 2px 2px 8px rgba(0,0,0,.25);
+}
+
+.pos2 .slide {
+    display: block;
+    width: 89%;
+    margin: 0 auto;
+}
+
+.description {
+    visibility: hidden;
+}
+
+.pos1,.pos2,.pos3 {
+    position: absolute;
+    z-index: 1;
+}
+
+.pos1 {
+    left: 0;
+    top: 25%;
+    width: 200px;
+    height: 50%;
+}
+
+.pos2 {
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.pos2 .description {
+    visibility: visible;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.pos3 {
+    right: 0;
+    top: 25%;
+    width: 200px;
+    height: 50%;
+}
+
+.off {
+    display: none;
+}

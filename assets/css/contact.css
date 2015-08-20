@@ -1,0 +1,74 @@
+/**
+ * Page-specific styles for the contact form
+ *
+ * @author		Jason Lengstorf
+ * @copyright	2009 Ennui Design
+ * @license		http://www.opensource.org/licenses/mit-license.html MIT License
+ */
+
+/*
+ ******************************************************************************
+ * CONTACT FORM
+ ******************************************************************************
+ */
+#contact {
+    margin: 0 20px 30px
+}
+
+#contact label {
+    display: block;
+    font-size: 11px;
+    line-height: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#contact input[type=text],#contact textarea {
+	display: block;
+	margin: 0 0 15px;
+	padding: 5px;
+	background: #FFF;
+	background: rgba(255,255,255,.8);
+	border: 1px solid #222;
+	color: #111;
+	-moz-box-shadow: inset 3px 4px 12px rgba(0, 0, 0, .3);
+	-webkit-box-shadow: inset 3px 4px 12px rgba(0, 0, 0, .3);
+	box-shadow: inset 3px 4px 12px rgba(0, 0, 0, .3);
+	-moz-border-radius: 0 6px 6px;
+	-webkit-border-radius: 0 6px 6px;
+	border-radius: 0 6px 6px;
+}
+
+#contact input[type=text] {
+	width: 66%;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#contact textarea {
+	width: 97%;
+    height: 170px;
+	font-size: 12px;
+}
+
+#contact input[type=submit] {
+	width: auto;
+	margin-left: 2%;
+	padding: 4px 6px 3px;
+	font-size: 14px;
+	color: #FFF;
+	text-transform: uppercase;
+	background: #AAA;
+	border: 1px solid #888;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	-moz-box-shadow: inset -2px -3px 6px rgba(0, 0, 0, .5),
+		1px 2px 6px rgba(0, 0, 0, .5);
+	/* Safari doesn't support inset */
+	-webkit-box-shadow: 1px 2px 6px rgba(0, 0, 0, .5);
+	-webkit-box-shadow: inset -1px -2px 6px rgba(0, 0, 0, .5),
+		1px 2px 6px rgba(0, 0, 0, .5);
+	box-shadow: inset -1px -2px 6px rgba(0, 0, 0, .5),
+		1px 2px 6px rgba(0, 0, 0, .5);
+}

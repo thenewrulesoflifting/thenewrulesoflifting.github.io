@@ -1,0 +1,407 @@
+
+html {
+	background:#000;
+}
+
+body {
+	min-width:960px;
+	margin:10px 0 0 0;
+}
+
+div#wrap {
+	margin:0 auto;
+	width:960px;
+	height:600px;
+	position:relative;
+}
+
+div#wrap a:link, div#wrap a:active, div#wrap a:visited, div#wrap a:hover {
+	color:#5C94C5;
+}
+
+h1, h2, h3, h4, legend {
+	font-family:"ChunkFive", georgia, 'times new roman', serif;
+}
+
+h1 {
+	position: relative;
+	top: 40px;
+	text-indent:-9999px;
+	width:325px;
+	height:105px;
+	background:url("../images/nrol_sprite.png") no-repeat;
+}
+h1.home {
+    height:135px;
+}
+a.linkhead {
+display:block; height:100%;
+}
+
+ul#menu {
+	position:absolute;
+	right:0px;
+	top:12px;
+	font-family:"ChunkFive";
+	font-size:12pt;
+}
+
+ul#menu li a:link, ul#menu li a:active, ul#menu li a:visited {
+	color:#FFF;
+	text-decoration:none;
+
+}
+
+ul#menu li a:hover {
+	color:#5C94C5;
+	text-decoration:none;
+}
+
+
+ul#menu li {
+	float:left;
+	margin:0 10px;
+}
+
+div#slider {
+	height:600px;
+	width:960px;
+	margin:10px 0;
+	background:url("../images/nrol_sliderbg.jpg") no-repeat 0 300px #000;
+	position:relative;
+}
+
+#slideHolder {
+	margin:0 auto;
+	width:800px;
+	position:auto;
+	position:relative;
+}
+
+div.description h2 {
+	font-size:20pt;
+}
+
+div.description .readmore {
+	float:right;
+}
+
+div#footer ul {
+	float:left;
+	margin:20px 5px;
+}
+
+.blue {
+	color:#5C94C5;
+}
+
+div#footer ul li {
+	margin:5px 0;
+}
+
+div#footer ul li.item {
+	margin:20px 0px;
+}
+
+div#footer ul h3 {
+	font-size:20pt;
+	margin:10px 0 20px 0;
+}
+
+ul#copy {
+	width:250px;
+}
+
+ul#copy li {
+	font-family:"ChunkFive";
+	font-size:12pt;
+}
+
+ul#copy li a:link, ul#copy li a:active, ul#copy li a:visited {
+	color:white;
+	text-decoration:none;
+}
+
+ul#copy li a:hover {
+	color:#5C94C5;
+}
+
+ul#copy li span.cIcon {
+	display:block;
+	float:left;
+	width:16px;
+	height:16px;
+	margin:0 15px;
+	background:url("../images/nrol_sprite.png") no-repeat;
+	overflow:hidden;
+	text-indent:-9999px;
+}
+
+ul#copy li span.barns {
+	background-position:-195px -125px;
+}
+
+ul#copy li span.amazon {
+	background-position:-213px -125px;
+}
+
+ul#copy li span.borders {
+	background-position:-231px -125px;
+}
+
+ul#copy li span.indiebound {
+	background-position:-195px -141px;
+}
+
+ul#copy li span.penguin {
+	background-position:-213px -141px;
+}
+
+div#footer ul#news {
+	width:430px;
+	margin: 20px 25px 20px 5px;
+}
+
+div#footer div#tweet ul {
+	float:none;
+	margin:0px;
+}
+
+ul#news div#tweet ul li {
+	background:url("../images/nrol_arrow.jpg") no-repeat;
+	position:relative;
+	display:block;
+	padding:0 0 0 30px;
+	margin: 22px 0px;
+	min-height:20px;
+}
+
+ul#social li {
+display:inline;
+}
+
+ul#social li a.sIcon {
+	display:block;
+	float:left;
+	width:56px;
+	height:56px;
+	margin:0 10px;
+	background:url("../images/nrol_sprite.png") no-repeat;
+	overflow:hidden;
+	text-indent:-9999px;
+}
+
+ul#social li a.fb {
+	background-position:-1px -106px;
+}
+
+ul#social li a.twitter {
+	background-position:-67px -106px;
+}
+
+ul#social li a.su {
+	background-position:-132px -106px;
+}
+
+div#singleBody {
+	position:relative;
+	width:960px;
+	margin:10px 0;
+	height:auto;
+	overflow:hidden;
+}
+
+div#article {
+	position:relative;
+	float:right;
+}
+
+div#article h2,h2 {
+	width: 500px;
+	font-size:22pt;
+	margin:0 0 15px;
+}
+
+div#textBody {
+	width:460px;
+	min-height: 450px;
+	padding:10px 20px;
+	color:#000;
+	background-color:#E6E6E6;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, rgb(143,168,189)),
+    color-stop(0.10, rgb(230,230,230)),
+    color-stop(0.90, rgb(230,230,230)),
+    color-stop(1, rgb(143,168,189))
+	);
+	background-image: -moz-linear-gradient(
+    center bottom,
+    rgb(143,168,189) 0%,
+    rgb(230,230,230) 10%,
+    rgb(230,230,230) 90%,
+    rgb(143,168,189) 100%
+	);
+}
+
+div#textBody p {
+	margin:10px 0;
+	line-height:1.3;
+}
+
+div#textBody ul {
+	list-style-type:disc;
+	list-style-position:inside;
+	line-height:1.3;
+}
+
+.support-links {
+    text-align: center;
+}
+
+.support-links li {
+    display: inline-block;
+    width: 111px;
+    height: 27px;
+    margin: 10px 5px;
+    overflow: hidden;
+
+    background-image: url(../images/nrol_sprite.png);
+}
+
+.support-links li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-indent: -200px;
+}
+
+.support-links .training-logs {
+    background-position: 0 -194px;
+}
+
+.support-links .forum-link {
+    background-position: -111px -194px;
+}
+
+div#links,#author-links {
+	width:290px;
+	height:102px;
+	position:absolute;
+	bottom:0px;
+	right:560px;
+}
+
+div#links h3,#author-links h3 {
+	font-size:18pt;
+	position:absolute;
+	top:15px;
+	left:0px;
+}
+
+#author-links h3 a:link,#author-links h3 a:visited,#author-links h3 a:active,#author-links h3 a:hover {
+    text-decoration: none;
+    color: #FFF;
+}
+
+div#links ul,#author-links ul {
+    display: block;
+    width: 100%;
+    margin-top: 45px;
+    text-align: center;
+}
+
+#links li {
+    display: inline;
+    width: 90px;
+    margin: 0 1px;
+}
+
+div#links li a {
+	background:url("../images/nrol_sprite.png") no-repeat;
+	display:inline-block;
+	width:90px;
+	height:30px;
+	text-indent:-9999px;
+}
+
+img.magCover {
+	position:absolute;
+	top:48px;
+	left:98px;
+}
+
+#log-links {
+    display: block;
+    width: 100%;
+}
+
+#log-links .log {
+    position: relative;
+    display: inline-block;
+    width: 320px;
+    margin: 0;
+    padding: 0;
+    float: left;
+    text-align: center;
+}
+
+.log #author-links ul {
+    display: block;
+    width: 220px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.log img {
+    width: 240px;
+}
+
+.log #author-links,.log #author-links h3 {
+    position: static;
+}
+
+.log #author-links h3 {
+    margin: 30px 0 10px;
+    padding: 0;
+}
+
+div#links li a.amazon {
+	background-position:-266px -106px;
+}
+
+div#links li a.borders {
+	background-position:-266px -135px;
+}
+
+div#links li a.barns {
+    background-position:-266px -165px;
+}
+
+div#links li a.indiebound {
+    background-position:-175px -165px;
+}
+
+div#links li a.penguin {
+    background-position:-86px -165px;
+}
+
+p.credits {
+    clear: both;
+    text-align:center;
+    padding-bottom: 8px;
+}
+
+.post h3,.post legend {
+    font-size: 24px;
+    line-height: 30px;
+    margin: 0 10px 15px;
+}
+
+.post p {
+    margin: 0 20px 30px;
+}

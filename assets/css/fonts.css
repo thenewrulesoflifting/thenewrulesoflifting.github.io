@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'ChunkFive';
+	src: url('http://www.thenewrulesoflifting.com/assets/css/fonts/Chunkfive-webfont.eot');
+	src: local('☺'), url('fonts/Chunkfive-webfont.woff') format('woff'), url('fonts/Chunkfive-webfont.ttf') format('truetype'), url('http://www.thenewrulesoflifting.com/assets/css/fonts/Chunkfive-webfont.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
